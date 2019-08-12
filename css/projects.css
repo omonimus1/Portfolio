@@ -1,0 +1,20 @@
+.project_card {
+    padding-left: 8%;
+    padding-right: 25%; 
+    text-align:center;
+}
+
+p, a {
+    color: black;
+    text-align: center;
+}
+
+span{
+    color:purple;
+    text-align:center;
+}
+
+
+#card {
+    max-height: 50%;
+}

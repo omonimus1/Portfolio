@@ -1,0 +1,156 @@
+ /* max-with is for desktop 
+@media (max-width: 400px) {
+  p{
+    font-size: 4rem;
+  }
+}
+
+
+/* min-with is for mobile */
+
+/*
+width: larghezza
+height: altezza
+
+Nell' ispect di google le dimensioni sono presentate
+X * X
+la prima e' width
+La seconda e' l' altezza
+
+*/
+
+
+/*Double application open - To fix*/
+@media(min-width:190px) and (min-height:144px){
+  p{
+    font-size: 1rem;
+  }
+  a{
+    font-size: 1.9rem;
+    color: black;
+  }
+}
+
+@media(max-width:400px) and (max-height:460px){
+  p{
+    font-size: 0.5rem;
+  }
+  a{
+    font-size: 1.9rem;
+    color: black;
+  }
+}
+
+/*Galaxy s5 -rotated */
+@media (min-height: 360px) and (min-width: 640px) {
+  p {
+    font-size: 2rem;
+  }
+  a {
+    font-size: 1.9rem;
+    color: black;
+  }
+}
+
+
+
+/*Random dimension: to fix -- Orizontal */
+@media (min-height: 688px) and (min-width: 528px) {
+  p {
+    font-size: 0.1rem;
+  }
+  a {
+    font-size: 0.8rem;
+    color: black;
+  }
+}
+
+/*Pixel 2 - Rotated*/
+@media (min-height: 410px) and (min-width: 732px) {
+  p {
+    font-size: 1.2rem;
+  }
+  a {
+    font-size: 0.9rem;
+    color: black;
+  }
+}
+
+@media(min-height: 1055px) and (min-width:999px){
+  p{
+    font-size: 1rem;
+  }
+  a{
+    font-size: 1rem;
+    color: black;
+  }
+}
+
+/*Pixel 2 - Vertical*/
+@media (min-height: 730px) and (min-width: 410px) {
+  p {
+    font-size: 2.6rem;
+  }
+  a {
+    font-size: 2.1rem;
+    color: black;
+  }
+}
+
+/* Iphone X rotated */
+@media (min-height: 375px) and (min-width: 812){
+  a{
+    font-size: 0.8rem;
+    color: black;
+  }
+}
+
+/* iPad -vertical */
+@media (min-width:765 px) and (min-height:1024){
+  p {
+    font-size: 0.9rem;
+  }
+}
+
+
+@media(min-width: 637px) {
+  p{
+    font-size: 1rem;
+  }
+  a{
+    5rem;
+  }
+}
+
+
+
+/*
+@media (min-width: 300px) {  
+  p {
+    font-size: 1rem;
+  }  
+  a {
+    font-size: 1rem;
+  } 
+
+  nav a.button-collapse {
+    font-size:50px;
+    background-color: blueviolet;
+    
+  }
+  ul {
+    font-size:200px;
+  }
+
+}
+  
+  
+body {
+    -webkit-text-size-adjust: 100%;
+}
+
+html {
+  font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+  line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
+}
+*/

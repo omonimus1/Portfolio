@@ -1,0 +1,38 @@
+
+
+.footer{
+    background-color: #000000;
+    left: 0px;
+    right: 0px;
+    color: white;
+    overflow:auto
+}
+
+p.copyright{
+    text-align: left;
+    font-size: 1rem;
+    color: white;
+}
+
+#footer_icon{
+    color: white;
+    font-size: 1.2rem;
+    padding-bottom: 5%; 
+    padding-right: 1%;
+  }
+
+#footer_icon:hover{
+    color: gray;
+    font-size: 1.2rem; 
+    padding-right: 1%;
+}
+
+body {
+    margin-bottom: 109px; /* height of your footer, use breakpoints if your footer stacks
+    border:solid; */
+    height:100vh;
+    -webkit-text-size-adjust: 100%;
+  }
+
+
+

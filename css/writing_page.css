@@ -1,0 +1,24 @@
+p {
+    color: black;
+    text-align: left;
+}
+
+/* unvisited link */
+a:link {
+    color: black;
+  }
+  
+/* mouse over link */
+a:hover {
+color:  lightblue;
+}
+
+
+span{
+    color:purple;
+}
+
+h5{
+    text-align: center;
+    color: black;
+}
