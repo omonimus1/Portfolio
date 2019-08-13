@@ -1,24 +1,24 @@
-p {
-    color: black;
-    text-align: left;
+.project_card {
+    padding-left: 8%;
+    padding-right: 25%; 
+    text-align:center;
 }
 
-/* unvisited link */
-a:link {
+p, a {
     color: black;
-  }
-  
-/* mouse over link */
-a:hover {
-color:  lightblue;
+    text-align: center;
 }
-
 
 span{
     color:purple;
+    text-align:center;
 }
 
-h5{
+
+#card {
+    max-height: 50%;
+}
+
+h4 {
     text-align: center;
-    color: black;
 }
