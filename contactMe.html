@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+
+    <title>Contact me</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+  
+    <!--Link to use Materialize icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--link to precompiled and minified Javascript-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!--Link to use basics GUI elements provided by Materialize-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/contactMe.css">
+
+</head>
+
+<body>
+    <div class="mapouter">
+        <div class="gmap_canvas" >
+            <iframe width="100%" height="300.88607594936709vh" id="gmap_canvas" src="https://maps.google.com/maps?q=Edinburgh&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+                frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+            </iframe>
+            <a href="https://www.bitgeeks.net/embed-google-map/">bitgeeks</a>
+        </div>
+    </div>
+
+    <form class="col s12" action="mailto:davidepollicino2015.com" enctype="text/plain">
+        <div class="row">
+            <div class="input-field col offset-s4 s5">
+            <i class="material-icons prefix icon-blueLight">account_circle</i>
+            <input placeholder="Full Name" id="first_name" type="text" class="validate" required="" aria-required="true">
+        </div>
+
+        <div class="row">
+            <div class="col s12">
+                <div class="input-field col offset-s4 s5">
+                    <i class="material-icons prefix icon-blueLight">email</i>
+                    <input id="email_inline" type="email" class="validate" required="" aria-required="true">
+                    <label for="email_inline">Email</label>
+                    <span class="helper-text" data-error="Insert a valid email" data-success="Email valid!">Helper text</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s12">
+                <div class="input-field col offset-s4 s5">
+                    <i class="material-icons prefix icon-blueLight">chevron_right</i>
+                    <input id="email_inline" type="text" class="validate" required="" aria-required="true">
+                    <label for="email_inline">Subject</label>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <form class="col s4">
+              <div class="row">
+                <div class="input-field col offset-s4 s5">
+                        <i class="material-icons prefix icon-blueLight">comment</i>
+                  <textarea id="textarea1" type="text" class="validate" required="" aria-required="true"></textarea>
+                  <label for="textarea1">  Your message</label>
+                </div>
+              </div>
+            </form>
+          </div>
+        <div class="row" style="text-align: center;">
+            <div style="text-align: center;">
+                <a class="btn-floating btn-large waves-effect purple darken-2"><i class="material-icons">send</i></a>
+            </div>
+        </div>
+    </form>
+    <footer class="page-footer" style="background-color: black; padding-bottom: 0%; ">
+            <div class="container"> 
+                <div>    
+                    <p class="copyright"> &copy; 2019 - Davide Pollicino</p>
+                    <div class="icons" style="text-align: right;">
+                            <li> 
+                                <a href="https://www.linkedin.com/in/davidepollicino7/" target="_blank"><i id="footer_icon" class="fa fa-linkedin-square darken-4" title="Linkedln" aria-hidden="true" style="padding-right: 1%;"></i></a>
+                                <a href="https://gitlab.com/omonimus?nav_source=navbar" target="_blank"><i id="footer_icon" class="fa fa-gitlab" title="Gitlab" aria-hidden="true"style="padding-right: 1%;"></i></a>
+                                <a href="https://www.instagram.com/davide_pollicino/"   target="_blank"><i id="footer_icon" class="fa fa-instagram" title="Instagram"aria-hidden="true" style="padding-right: 1%;"></i></a>
+                                <a href="mailto:davidepollicino2015@gmail.com?Subject=Contact%20from%website" target="_top"><i id="footer_icon" class="fa fa-envelope" title="Email" aria-hidden="true" style="padding-right: 1%;"></i></a>
+                                <a href="#top"><i id="footer_icon" class="fa fa-arrow-up" aria-hidden="true"></i></a>
+                            </li> 
+                        </div>	 
+                </div>
+            </div> 
+        </footer>
+</body>
+
+</html>
