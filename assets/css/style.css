@@ -19,11 +19,10 @@
     4.SERVICES
     4.CALL TO ACTION
     5.WORK
-    6.PRICING
-    7.BLOG
-    8.CONTACT
-    9.FOOTER
-    10.PAGE BANNER
+    6.BLOG
+    7.CONTACT
+    8.FOOTER
+    9.PAGE BANNER
     10.SINGLE BLOG PAGE
 
 -----------------------------------------------------------------------------------*/
@@ -1107,66 +1106,9 @@ p {
       transform: translateX(0);
       opacity: 1; }
 
-/*===========================
-       6.PRICING css 
-===========================*/
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .pricing-area {
-    padding-top: 90px;
-    padding-bottom: 100px; } }
-@media (max-width: 767px) {
-  .pricing-area {
-    padding-top: 70px;
-    padding-bottom: 80px; } }
-
-.single-pricing .pricing-package {
-  background-color: #754ef9;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px; }
-  .single-pricing .pricing-package .package-title {
-    font-size: 22px;
-    color: #fff;
-    padding: 25px; }
-.single-pricing .pricing-body {
-  border: 1px solid #ddd;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px; }
-  .single-pricing .pricing-body .pricing-text {
-    border-bottom: 1px solid #ddd;
-    padding: 20px 25px; }
-    .single-pricing .pricing-body .pricing-text .price {
-      font-size: 30px;
-      font-weight: 600;
-      color: #754ef9;
-      padding-top: 15px; }
-  .single-pricing .pricing-body .pricing-list {
-    padding-top: 30px; }
-    .single-pricing .pricing-body .pricing-list ul li {
-      line-height: 36px;
-      color: #32333c;
-      font-size: 16px; }
-  .single-pricing .pricing-body .pricing-btn {
-    padding-top: 25px;
-    padding-bottom: 40px; }
-    .single-pricing .pricing-body .pricing-btn .main-btn {
-      background-color: #fff;
-      color: #754ef9; }
-      .single-pricing .pricing-body .pricing-btn .main-btn:hover {
-        background-color: #754ef9;
-        color: #fff; }
-.single-pricing.active {
-  -webkit-box-shadow: 0px 0px 21px 0px rgba(152, 152, 152, 0.23);
-  -moz-box-shadow: 0px 0px 21px 0px rgba(152, 152, 152, 0.23);
-  box-shadow: 0px 0px 21px 0px rgba(152, 152, 152, 0.23); }
-  .single-pricing.active .pricing-body .pricing-btn .main-btn {
-    background-color: #754ef9;
-    color: #fff; }
-    .single-pricing.active .pricing-body .pricing-btn .main-btn:hover {
-      background-color: #fff;
-      color: #754ef9; }
 
 /*===========================
-       7.BLOG css 
+       6.BLOG css 
 ===========================*/
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .blog-area {
@@ -1243,7 +1185,7 @@ p {
       color: #fff; }
 
 /*===========================
-       8.CONTACT css 
+       7.CONTACT css 
 ===========================*/
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .contact-area {
@@ -1332,7 +1274,7 @@ p.form-message.success, p.form-message.error {
   box-shadow: 0px 0px 12px 0px rgba(152, 152, 152, 0.46); }
 
 /*===========================
-       9.FOOTER css 
+       8.FOOTER css 
 ===========================*/
 .footer-widget {
   background-color: #152136; }
@@ -1411,7 +1353,7 @@ p.form-message.success, p.form-message.error {
     border-color: #754ef9; }
 
 /*===========================
-      10.PAGE BANNER css 
+      9.PAGE BANNER css 
 ===========================*/
 .page-banner {
   margin-top: 95px;
