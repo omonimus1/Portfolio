@@ -1075,7 +1075,7 @@ p {
             transition: all 0.3s ease-out 0s; }
             .single-work .work-overlay .work-content ul li a:hover {
               background-color: #fff;
-              color: #754ef9; }
+              background-color: rgba(255, 255, 255, 0.5);}
           .single-work .work-overlay .work-content ul li:nth-of-type(1) {
             -webkit-transform: translateX(-100%);
             -moz-transform: translateX(-100%);
@@ -1178,11 +1178,11 @@ p {
     -o-transform: scale(1.2);
     transform: scale(1.2); }
   .single-blog:hover .blog-content {
-    background-color: #754ef9; }
+    background-color: rgba(255, 255, 255, 0.1); }
     .single-blog:hover .blog-content .blog-title a {
-      color: #fff; }
+      color: #000000; }
     .single-blog:hover .blog-content span {
-      color: #fff; }
+      color: #000000; }
 
 /*===========================
        7.CONTACT css 
