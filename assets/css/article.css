@@ -1,12 +1,16 @@
-p {
+p , ul {
     text-align: left;
     padding-left: 20%;
     padding-right: 20%;
 }
 
-h2{
+h2 , h1 , h3 {
     text-align: center;
 }
-h3 {
-    text-align: center;
+
+body {
+background-color: black;
+color: white; 
+font-family: Ubuntu;
+font-size: 1.25rem;
 }
