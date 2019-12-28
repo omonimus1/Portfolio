@@ -27,7 +27,7 @@
 
 -----------------------------------------------------------------------------------*/
 /*===========================
-    1. COMMON css 
+    1. COMMON css
 ===========================*/
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800");
 body {
@@ -444,7 +444,7 @@ p {
     -o-transform: rotate(-130deg);
     transform: rotate(-130deg); } }
 /*===========================
-    2.HEADER css 
+    2.HEADER css
 ===========================*/
 .navigation {
   -webkit-box-shadow: 0px 0px 29px 0px rgba(134, 134, 134, 0.25);
@@ -784,7 +784,7 @@ p {
           border-color: #754ef9; }
 
 /*===========================
-        3.ABOUT css 
+        3.ABOUT css
 ===========================*/
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .about-area {
@@ -868,7 +868,7 @@ p {
       width: 0; }
 
 /*===========================
-        4.SERVICES css 
+        4.SERVICES css
 ===========================*/
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .services-area {
@@ -916,7 +916,7 @@ p {
     box-shadow: 0px 0px 21px 0px rgba(152, 152, 152, 0.23); }
 
 /*===========================
-    4.CALL TO ACTION css 
+    4.CALL TO ACTION css
 ===========================*/
 .call-to-action {
   position: relative;
@@ -979,8 +979,15 @@ p {
         border-color: #fff; }
 
 /*===========================
-        5.WORK css 
+        5.WORK css
 ===========================*/
+
+img {
+  max-width  : 300px;
+  max-height: auto !important;
+  max-height: 30%;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .work-area {
     padding-top: 90px;
@@ -1108,7 +1115,7 @@ p {
 
 
 /*===========================
-       6.BLOG css 
+       6.BLOG css
 ===========================*/
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .blog-area {
@@ -1187,10 +1194,10 @@ p {
 
 
 
-      
+
 
 /*===========================
-       7.CONTACT css 
+       7.CONTACT css
 ===========================*/
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .contact-area {
@@ -1279,7 +1286,7 @@ p.form-message.success, p.form-message.error {
   box-shadow: 0px 0px 12px 0px rgba(152, 152, 152, 0.46); }
 
 /*===========================
-       8.FOOTER css 
+       8.FOOTER css
 ===========================*/
 .footer-widget {
   background-color: #152136; }
@@ -1358,7 +1365,7 @@ p.form-message.success, p.form-message.error {
     border-color: #754ef9; }
 
 /*===========================
-      9.PAGE BANNER css 
+      9.PAGE BANNER css
 ===========================*/
 .page-banner {
   margin-top: 95px;
@@ -1418,7 +1425,7 @@ p.form-message.success, p.form-message.error {
         transform: translateY(-50%); }
 
 /*===========================
-   10.SINGLE BLOG PAGE css 
+   10.SINGLE BLOG PAGE css
 ===========================*/
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .single-blog-page {
