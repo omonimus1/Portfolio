@@ -23,6 +23,8 @@
     <!--====== Title ======-->
     <title>Davide Pollicino </title>
 
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"/>
+
     <!--====== CSS ======-->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/LineIcons.css">
@@ -31,9 +33,12 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/custom_style.css">
 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
     <!--====== Font-awesone icons ====== -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.2.0/css/fontawesome.min.css">
     <!--====== Open Sans font ====== --> 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     
@@ -142,7 +147,7 @@
                             <div class="header-social-icon">
                                 <ul>
                                     <li><a href = 'https://www.linkedin.com/in/davidepollicino7/' target ='_blank'><i id ='footer_icon' class ='fa fa-linkedin darken-4' title ='Linkedln' aria-hidden='true' ></i></a></li>
-                                     <li><a href = 'mailto:davidepollicino2015@gmail.com?Subject=Contact%20from%website' target='_top'><i id='footer_icon' class='fa fa-envelope' title='Email' aria-hidden='true'></i></a></li>
+                                    <li><a href = 'mailto:davidepollicino2015@gmail.com?Subject=Contact%20from%website' target='_top'><i id='footer_icon' class='fa fa-envelope' title='Email' aria-hidden='true'></i></a></li>
                                     <li><a href = 'https://github.com/omonimus1' target = '_blank'> <i id ='footer_icon' class ='fa fa-github' title ='Github' aria-hidden = 'true' ></i> </a></li>
                                 </ul>
                             </div> <!-- header social -->
@@ -170,12 +175,14 @@
                 <div class="col-6">
                     <div class="about-content mt-50">
                         <h5 class="about-title">Hi There! I'm Davide Pollicino</h5>
-                        <p>
-                            Born in <strong>Sicily</strong>, I am passionate about conding and travelling. 
-                            
-                            <br>I am a computer science student at the Edinburgh napier University and a <strong>software developer</strong>.
-                           </br>
-                            To meet new people and learn together from the daily mistakes, I am also a Coding lab demonstrator.
+                        <p>Born in Italy, with a huge passion for techonology, Competitive Programming and food.</p> 
+                        <p>I am a computer science student and a software developer, having the first serious approach to algorithms and Data Structures during the Secondary High School, where I have competed in two Competitive Programing Competitions in team, 
+                            being 21rst and 2nd classified in the National and regional ranking. 
+                        </p>
+                    
+                        <p> To meet new people and learn together from the daily mistakes, I have also worked as Coding lab demonstrator at the 
+                            Edinburgh Napier University.
+                        </p> 
                           </br> </br>
                             My place in the world?
                             <a href="https://www.google.com/search?q=mondello+beach&safe=active&sxsrf=ACYBGNSwV96SbHBWCF7popYqkYzC9HG3Dg:1579442670141&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjdxa-66o_nAhXIVsAKHVj6C-0Q_AUoAnoECBMQBA&cshid=1579442680993446&biw=1366&bih=625" >
@@ -225,25 +232,6 @@
     </section>
     <!--====== ABOUT PART ENDS ======-->
 
-    
-    <!--====== CALL TO ACTION PART START ======-->
-
-    <section id="call-to-action" class="call-to-action pt-125 pb-130 bg_cover" style="background-image: url(assets/images/call-to-action.jpg)">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-xl-8 col-lg-9">
-                    <div class="call-action-content text-center">
-                        <h2 class="action-title">Have any idea for for your business?</h2>
-                        <ul>
-                            <li><a class="main-btn custom-2" href="#contact">Let' s have a chat</a></li>
-                        </ul>
-                    </div> <!-- call action content -->
-                </div>
-            </div> <!-- row -->
-        </div> <!-- container -->
-    </section>
-
-    <!--====== CALL TO ACTION PART ENDS ======-->
 
     <!--====== WORK PART START ======-->
 
@@ -256,31 +244,67 @@
                     </div> <!-- section title -->
                 </div>
             </div> <!-- row -->
-            <div class="portfolio-container">
-                <ul class="portfolio-list">
-                    <li class="portfolio-iteam">Personal Portfolio:<a href="https://github.com/omonimus1/davidepollicino" class="portfolio-link">Source Code</a></li>
-                    <li class="portfolio-iteam">My Own Story Game<a href="" class="portfolio-link">Source Code</a></li>
-                    <li class="portfolio-iteam">Root 13 cypher<a href="https://github.com/omonimus1/Rot13_webTech" class="portfolio-link">Source Code</a></li>
-                    <li class="portfolio-iteam">Competitive Programmming Guide:<a href="https://github.com/omonimus1/competitive-programming" class="portfolio-link">Source Code</a></li>
-                </ul>
+            <!-- container-fluid -->
+            <div id="pricing" class="container-fluid">
+                <table class="table table-bordered table-striped text-center">
+                <tr>
+                  <th>Project Name</th>
+                  <th>Source code</th>
+                  <th>WebSite</th>
+                  <th>State</th>
+                </tr>
+                <tr>
+                    <td>Portfolio</td>
+                    <td><a href="https://github.com/omonimus1/davidepollicino">Source</a></td>
+                    <td><a href="http://davidepollicino.com/"">Check out</a></td>
+                    <td>Maintenance</td>
+                </tr>
+                <tr>
+                  <td>Competitive Programmming Guide</td>
+                  <td><a href="https://github.com/omonimus1/competitive-programming">Source</a></td>
+                  <td>-------------</td>
+                  <td>Work in Progress</td>
+                </tr>
+                <tr>
+                    <td>My Own Story Game</td>
+                    <td><a href="https://github.com/omonimus1/myOwnAdventure.github.io">Source</a></td>
+                    <td><a href="https://github.com/omonimus1/myOwnAdventure.github.io">Check out</a></td>
+                    <td>Maintenance</td>
+                </tr>
+              </table>
             </div>
            
-
+        
+              <br>
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="section-title text-center pb-25">
-                        <h2 class="section_title">Public Code</h2>
+                        <h2 class="section_title">Team Projects</h2>
                     </div> <!-- section title -->
                 </div>
             </div>
-            <div class="portfolio-container">
-                <ul class="portfolio-list">
-                    <li class="portfolio-iteam">University Courseworks<a href="https://github.com/omonimus1/university_coursework" class="portfolio-link">Source Code</a></li>
-                    <li class="portfolio-iteam">HackerRank Solutions: <a href="https://github.com/omonimus1/HackerRank-Solutions" class="portfolio-link">Source Code</a></li>
-                    <li class="portfolio-iteam">Python Exercises: <a href="https://github.com/omonimus1/chicken_wings_and_PYTHON" class="portfolio-link">Source Code</a></li>
-                    <li class="portfolio-iteam">SQLZoo Solutions:<a href="" class="portfolio-link">Source Code</a></li>
-                </ul>
-            </div>
+            <div id="pricing" class="container-fluid">
+                <table class="table table-bordered table-striped text-center">
+                <tr>
+                  <th>Project Name</th>
+                  <th>Source code</th>
+                  <th>WebSite</th>
+                  <th>State</th>
+                </tr>
+                <tr>
+                  <td>SEM</td>
+                  <td><a href="https://github.com/omonimus1/SEM_group_project">Source</a></td>
+                  <td>-------------</td>
+                  <td>Goals Reached</td>
+                </tr>
+                <tr>
+                  <td>Cron Jobs Emulation</td>
+                  <td><a href="https://github.com/omonimus1/cron_jobs_interface_emulation">Source</a></td>
+                  <td>-------------</td>
+                  <td>Goals Reached</td>
+                </tr>
+              </table>
+              </div>
         </div> <!-- container -->
     </section>
 
@@ -403,9 +427,11 @@
     <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
     <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
 
-    <!--====== Bootstrap js ======-->
+    <!--====== Bootstrap ======-->
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
     <!--====== Magnific Popup js ======-->
     <script src="assets/js/jquery.magnific-popup.min.js"></script>
@@ -428,6 +454,7 @@
 
     <!--====== Main js ======-->
     <script src="assets/js/main.js"></script>
+    
 
 </body>
 

@@ -11,3 +11,19 @@ Date: 28/03/2020
     font-family: 'Montserrat';
     font-size: 36px!important;
 }
+
+.fa , .fab , .fal , .far , .fas
+{
+    color: black!important;
+}
+
+
+.a:hover
+{
+    background-color: gray!important;
+}
+
+table
+{
+    font-size: 16px;
+}
