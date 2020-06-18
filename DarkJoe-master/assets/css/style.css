@@ -545,7 +545,12 @@ header{
 //  08 - Footer 
 /////////////////////////////////////////////////////////////////////*/
 
-
+.social_footer
+{
+	color: #fff;
+	padding-bottom: 10px;
+    position: relative;
+}
 
 footer {
     width: 100%;
