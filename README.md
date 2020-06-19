@@ -1,41 +1,23 @@
-#DarkJoe
+## Davide Pollicino E-Portofio
 
-A Multipurpose One page Responsive Template for agencies or personal site.
+This repository is used for the mantainement and management of my personal E-Portfolio; 
+You see the Portfolio visiting [www.davidepollicino.com](http://davidepollicino.com/)
 
-#Features
+### Techonologies used
 
-- Unique Mordern Design
-- Full Screen Header Background with centered headline
-- Optimized Code & Content
-- Simple Tooltip Menu
-- Showcase your work more with the power of CSS3 animations.
-- Clean Code
-- Cross-browser Compatibility
-- Smooth CSS3 animation
-- SEO Optimized
-- 100% Fully Customizable
-- Sticky Header
-- Google Fonts
-- Built with HTML5 & CSS3
-- Strong focus on Usability and UX
-- Responsive layout
-- CSS Framework - Bootstrap 3
-- FontAwesome Icon Integrated
-- stylish UI
-- Well commented coding
-- Easy to use
-- It's Free!
+This Portfolio had been realized using HTML, css, Javascript and Bootstrap. 
 
-#Screenshot
+### Connect with me
 
-#Demo Link
-Check out the demo of Flusk responsive HTML template at (http://themewagon.com/demo/DarkJoe/)
+* [davidepollicino2015@gmail.com](mailto:davidepollicino2015@gmail.com?subject=[GitHub]%20CompetitiveProgrammigGuide)
+* [Linkedin: davidepollicino7/](https://www.linkedin.com/in/davidepollicino7/)
+* [Github: omonimus1](www.github.com/omonimus1)
 
-![Screenshot of Flusk]
-(https://github.com/technext/DarkJoe/blob/master/darkjoe.jpg)
+### Mind that
 
-#Demo Link
-Check out the demo of Flusk responsive HTML template at (http://themewagon.com/demo/DarkJoe/)
+Any feedback is very appreciated
+
+
 
 
 
