@@ -12,7 +12,10 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        
+
+        <!-- Bootrap4 -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
         <!-- stylesheets -->
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="assets/font_icon/css/pe-icon-7-stroke.css">
@@ -41,13 +44,51 @@
             <div class="center text-center">
                 <h1 class="bigheadline">Davide Pollicino</h1>
                 <h4 class="subheadline">The Worst In Everything</h4>
-                <div class="btn">
-                    <span class="border border-success">Know a bit about me</span>
-                </div>      
+                 <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                    Brief description about me
+                </button>   
             </div>
             <div class="bottom">
                 <a data-scroll href="#navigation" class="scrollDown animated pulse" id="scrollToContent"><i class="pe-7s-angle-down-circle pe-va"></i></a>
             </div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Few words about me</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <ul>
+                <li>Born and group up in <a href="http://www.visitsicily.info/en/" target="_blank">Sicily, of the biggest beauty of the word</a></li>
+                <li>At 11 y.o. I had my first computer and using it daily,my courisity about how a computer works and every program is made lead me to study in 
+                    an IT and Telecommunication Secondary High school.
+                </li>
+                <li>
+                    When I was 16 I had my first experience with <strong>Competitive Programming</strong> and there
+                    I understoon the real meaning and power of algorithms and datastructures.
+                </li>
+                <li>
+                    After two weeks since my Diploma graduation I moved in Edinburgh(UK) to study Computing Science.
+                </li>
+                <li>
+                    During the second year of university I have been working as <strong>Coding Lab demonstrator</strong>
+                    and I have been accepted as <strong>the only european <a href= "https://auth.geeksforgeeks.org/user/davidepollicino/practice/" target="_blank">Geeks for Geeks Campus Ambassador</strong></a>.
+                </li>
+                <li>
+                  During the third year of university, I have been working as committee member and Media Officer for the <a href="" target="_blank">ENUCS: Edinburgh Napier Univesity Computing Society</a>  
+                </li>
+            </ul>
+        </div>
+    
+      </div>
+    </div>
+  </div>
         </header>
 
         <!-- Navigation area -->
@@ -90,10 +131,10 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="services">
                             <div class="service-wrap">
-                                <i class="pe-7s-config pe-dj pe-va"></i>
-                                <h3>Info</h3>
-                                <p>Born in Italy in a family that for generations managed family bakeries.
-                                   I love exploring new technologies and travel.
+                                <i class="pe-7s-science pe-dj pe-va"></i>
+                                <h3>Origin</h3>
+                                <p>Born in Italy in a family that for generations managed family bakeries, I feel 
+                                    in love with techonology durig during my childhood.
                                 </p>
                             </div>
                         </div>
@@ -120,17 +161,20 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="services">
                             <div class="service-wrap">    
-                                <i class="pe-7s-science pe-dj pe-va"></i>
-                                <h3>View about Open Source</h3>
+                                <i class="pe-7s-config pe-dj pe-va"></i>
+                                <h3>View about open source</h3>
                                 <p>With the purpose to the get feedbacks and try to inspire others,all my personal project will be always available on <a href="https://github.com/omonimus1" target="_blank"> GitHub.</a></p>
                             </div>
                         </div>
                         
                     </div>
-
-         
-
                 </div>
+                
+                <div class="col-xs-12">
+                    <div class="btn-center"><a href="#" class="big button">Get my resume</a></div>
+                </div>
+               
+
             </div>
         </section><!-- services -->
 
@@ -216,6 +260,9 @@
                                 <ul class="address">
                                     <li><i class="pe-7s-map-marker"></i><span>Edinburgh, United Kingdom</span></li>
                                     <li><i class="pe-7s-mail"></i><span>davidepollicino2015@gmail.com</span></li>
+                                    <li><i class="pe-7s-mail"></i><span>davidepollicino2015@gmail.com</span></li>
+                                    <li><a href="" target="_blank">    </a> </li>
+                                    <a href="" target="_blank"><li> </li></a>
                                 </ul>
                             </div>
                         </div>
@@ -273,7 +320,12 @@
         <script src="assets/js/smooth-scroll.js"></script>
         <script src="assets/js/owl.carousel.js"></script>
         <script src="assets/js/script.js"></script>
-
+        <script src="assets/js/popup.js"></script>
+        <script>
+            $('#myModal').on('shown.bs.modal', function () {
+                $('#myInput').trigger('focus')
+            })
+        </script>
     </body>
 </html>
 
