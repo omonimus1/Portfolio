@@ -31,6 +31,11 @@ Text Domain: darkjoe
 //  01 - Universal
 /////////////////////////////////////////////////////////////////////*/
 
+.border-3 {
+	border-width:3px !important;
+}
+
+
 html, body {
     height:100%;
 }
