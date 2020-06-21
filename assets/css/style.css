@@ -164,6 +164,12 @@ header{
 	background-attachment: fixed;
 	background-position: 50% -50px;
 }
+
+.social-bottom
+{
+	padding-top: 8px;
+}
+
 .center {
     text-align: center;
     color: #fff;
