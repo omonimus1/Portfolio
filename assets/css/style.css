@@ -153,6 +153,13 @@ a:hover,a:active,a:focus{
 	to {opacity: 1;}
   }
   
+#welcome-section{
+	padding-top: 0px;
+	margin-top: 0px;
+	display: block;
+	height: 100vh;
+}
+
 @keyframes fadeIn {
 	from {opacity: 0;}
 	to {opacity:1 ;}

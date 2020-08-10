@@ -58,7 +58,7 @@
 
         <!-- Header area -->
         <header id="header">
-            <div class="center text-center">
+            <div class="center text-center" id="welcome-section">
                 <h1 class="bigheadline">Davide Pollicino</h1>
                 <h4 class="subheadline">Your next Software Engineering</h4>
         
@@ -137,7 +137,7 @@
                     <div class="col-xs-6">
                         <div class="nav">
                             <a href="#" data-placement="bottom" title="Menu" class="menu" data-toggle="dropdown"><i class="pe-7s-menu"></i></a>
-                             <div class="dropdown-menu">
+                             <div class="dropdown-menu" id="navbar">
                                  <div class="arrow-up"></div>
                                  <ul>
                                      <li><a data-scroll href="#body">Home <i class="pe-7s-home"></i></a><span class="menu-effect"></span></li>
@@ -215,16 +215,16 @@
         <!-- Portfolio Area -->
 
         <section id="portfolio" class="portfolio-area">
-            <div class="container">
+            <div class="container" id="projects">
                 <h2 class="block_title">Portfolio</h2>
                 <div class="row port cs-style-3">
                        
              
                     <div class="col-md-4 col-sm-6 col-xs-12 item-space">
                         <figure>
-                            <a href="https://github.com/omonimus1/personal_assistant" target="_blank"> <img src="assets/images/vocal.jpg" alt="img01"> </a>
+                            <a id="profile-link" href="https://github.com/omonimus1/personal_assistant" target="_blank"> <img src="assets/images/vocal.jpg" alt="img01"> </a>
                             <figcaption>
-                                <h3>Personal Assistant</h3>
+                                <h3 class="project-tile">Personal Assistant</h3>
                                 <span>Davide Pollicino</span>
                                 <a href="https://github.com/omonimus1/personal_assistant" target="_blank" class="button">Take a look</a>
                             </figcaption> 
@@ -235,7 +235,7 @@
                         <figure>
                             <a href="https://github.com/omonimus1/Portfolio" target="_blank"> <img src="assets/images/portfolio.png" alt="img01"> </a>
                             <figcaption>
-                                <h3>E-Portfolio</h3>
+                                <h3 class="project-tile">E-Portfolio</h3>
                                 <span>Davide Pollicino</span>
                                 <a href="#" class="button">Take a look</a>
                             </figcaption> 
@@ -245,7 +245,7 @@
                         <figure>
                             <a href="https://github.com/omonimus1/competitive-programming" target="_blank"> <img src="assets/images/tree.png" alt="img04"> </a>
                             <figcaption>
-                                <h3>Data stuctures</h3>
+                                <h3 class="project-tile">Data stuctures</h3>
                                 <span>Davide Pollicino</span>
                                 <a href="https://github.com/omonimus1/competitive-programming"  target="_blank" class="button" >Take a look</a>
                             </figcaption>
@@ -255,7 +255,7 @@
                         <figure>
                             <a href="https://github.com/omonimus1/cron_jobs_interface_emulation" target="_blank"> <img src="assets/images/cronjob.png" alt="img04"> </a>
                             <figcaption>
-                                <h3>Cron jobs emulator</h3>
+                                <h3 class="project-tile">Cron jobs emulator</h3>
                                 <span>Team project</span>
                                 <a href="https://github.com/omonimus1/cron_jobs_interface_emulation"  target="_blank" class="button" >Take a look</a>
                             </figcaption>
@@ -339,7 +339,7 @@
         </section><!-- testimonial -->
 
 
-        <section id="contact" class="portfolio-area">
+        <section id="contact" class="contact-area">
             <!-- Calendly inline widget begin -->
             <div class="calendly-inline-widget" data-url="https://calendly.com/davidepollicino?background_color=000000&text_color=ffffff&primary_color=0b6aa2" style="min-width:320px;height:630px;"></div>
             <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
@@ -360,6 +360,7 @@
         <script src="assets/js/bootstrap.min.js"></script>
         <script src="assets/js/jquery.actual.min.js"></script>
         <script src="assets/js/smooth-scroll.js"></script>
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
         <script src="assets/js/owl.carousel.js"></script>
         <script src="assets/js/script.js"></script>
         <script>
