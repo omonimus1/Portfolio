@@ -152,6 +152,11 @@ a:hover,a:active,a:focus{
 	from {opacity: 0;} 
 	to {opacity: 1;}
   }
+
+
+.down-arrow{
+	padding-top: 9rem;
+}
   
 #welcome-section{
 	padding-top: 0px;
